@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Quer Namorar Comigo?</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+    body {
+      background: linear-gradient(145deg, #1a000d, #4d0026);
+      font-family: 'Pacifico', cursive;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    .container {
+      max-width: 600px;
+      margin: 50px auto;
+      background: rgba(255, 105, 180, 0.1);
+      padding: 30px;
+      border-radius: 25px;
+      box-shadow: 0 0 30px rgba(255, 20, 147, 0.7);
+    }
+    h1 {
+      font-size: 3em;
+      color: #ff4d6d;
+    }
+    p {
+      color: #ffcce0;
+      font-size: 1.4em;
+    }
+    img {
+      width: 100%;
+      border-radius: 20px;
+      border: 4px solid #ff4d6d;
+      margin: 20px 0;
+    }
+    audio {
+      width: 100%;
+      margin-top: 20px;
+    }
+    .btn {
+      background: #ff4d6d;
+      color: white;
+      padding: 15px 40px;
+      font-size: 1.2em;
+      border: none;
+      border-radius: 15px;
+      margin: 10px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    .btn:hover {
+      background: #ff0066;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Vitoria, aceita namorar comigo?</h1>
+    <p>Você é o meu verso favorito no poema da vida 💖</p>
+    <img src="foto.jpg" alt="Foto do casal">
+    <audio controls>
+      <source src="musica.mp3" type="audio/mpeg">
+      Seu navegador não suporta áudio :(
+    </audio>
+    <br><br>
+    <button class="btn" onclick="alert('Siiiim! 💍')">Sim, eu aceito!</button>
+    <button class="btn" onclick="alert('Ainda não tô pronta 😢')">Não...</button>
+  </div>
+</body>
+</html>
